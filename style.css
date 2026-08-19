@@ -1,0 +1,9 @@
+body {background-color: lightblue;}
+h1 {color: darkblue;}
+p {color: darkgreen;}
+button {background-color: darkblue;
+color: white;
+font-size: 18px;
+padding: 10px 20px;
+border: none;
+border-radius: 8px;}
