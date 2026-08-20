@@ -1,9 +1,31 @@
-body {background-color: lightblue;}
-h1 {color: darkblue;}
+body {background: linear-gradient(135deg, lightblue, white);
+    padding: 30px;
+text-align:center;
+font-family: Arial, sans-serif;
+}
+h1 {color: darkblue;
+ margin-bottom: 30px;}
 p {color: darkgreen;}
 button {background-color: darkblue;
 color: white;
 font-size: 18px;
 padding: 10px 20px;
 border: none;
-border-radius: 8px;}
+border-radius: 8px;
+transition: 0.3s;}
+ul {list-style-position: inside;
+padding:0;
+list-style:none;
+padding:0;}
+img {width:250px;
+border-radius: 15px;
+border:3px solid white;}
+button:hover {background-color:black;
+transform: scale(1.1);}
+.container { background-color: white;
+max-width: 700px;
+margin: auto;
+padding: 30px;
+border-radius: 20px;
+box-shadow: 0 0 15px gray;
+}
